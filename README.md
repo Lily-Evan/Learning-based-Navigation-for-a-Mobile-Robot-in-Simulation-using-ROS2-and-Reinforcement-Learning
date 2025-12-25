@@ -262,7 +262,4 @@ Promising directions for future work:
 **Panagiota Grosdouli**
 
 
-## 13. License
 
-The project is intended for **academic and research use**.  
-Please cite or acknowledge the author if you use or extend this work in your own research or publications.
