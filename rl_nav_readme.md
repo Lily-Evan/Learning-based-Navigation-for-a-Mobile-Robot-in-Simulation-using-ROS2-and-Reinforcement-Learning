@@ -46,18 +46,18 @@ At each time step, the agent observes:
 
 Formally, the state can be written as:
 
-\[ s_t = [z_t^{\text{LiDAR}}, d_t^{\text{goal}}, \theta_t^{\text{heading}}] \in \mathcal{S}. \]
+
 
 ### 3.2 Action Space (Continuous Control)
 
 The action is a continuous 2D vector of velocity commands for a differential-drive robot:
 
-\[ a_t = [v_t, \omega_t] \in \mathcal{A}, \]
+
 
 where:
 
-- \( v_t \) is the **linear velocity** (m/s)  
-- \( \omega_t \) is the **angular velocity** (rad/s)
+
+
 
 Both are bounded by the TurtleBot3’s physical limits and by safety constraints imposed in the environment.
 
